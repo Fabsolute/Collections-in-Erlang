@@ -2,5 +2,5 @@
 gmake
 exec erl \
     -pa ebin deps/*/ebin \
-    -boot start_sasl \
-    -sname collections
+    -sname collections \
+    -s reloader
